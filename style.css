@@ -14,7 +14,7 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url(/assets/87d14bed1942e84db6448394aeae7b86.gif);
+  background-image: url(87d14bed1942e84db6448394aeae7b86.gif);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -102,4 +102,5 @@ h1{
   font-family: "Merriweather", cursive;
   cursor: default;
 }
+
 
