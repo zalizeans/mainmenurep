@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  box-sizing: border-box;
+} 
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(../assets/87d14bed1942e84db6448394aeae7b86.gif);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.main{
+  width: 500px;
+  margin-top: 3px;
+  padding: 17px 17px 17px 17px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid black;
+  backdrop-filter: blur(50px);
+}
+
+.username{
+  width: 100%;
+  border-radius: 40px;
+  padding: 10px;
+  background-color: transparent;
+  box-shadow: 0 0 7px black;
+  font-size: 16px;
+}
+
+.password{
+  width: 100%;
+  border-radius: 40px;
+  padding: 10px;
+  background-color: transparent;
+  box-shadow: 0 0 7px black;
+  font-size: 16px;
+}
+
+
+.input-box{
+  height: 65px;
+}
+
+h1{
+ text-align: center;
+}
+
+.main .remember{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+a:hover{
+  color: blue;
+  opacity: 0.8;
+}
+
+button{
+  width: 100%;
+  border-radius: 40px;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  outline: none;
+  box-shadow: 0 0 10px black;
+}
+button:hover{
+  cursor: pointer;
+  opacity: 0.85;
+  box-shadow: black;
+}
+
+.register{
+  justify-items: center;
+}
+
+.register a:hover{
+  color: blue;
+  opacity: 0.8;
+}
+
+h1{
+  font-family: "Merriweather", cursive;
+  cursor: default;
+}
+
